@@ -1,0 +1,14 @@
+training_method: 'pn'
+save_path: 'results/debug/'
+
+train_data_path: 'data/wikiQA/WikiQA-train.tsv'
+test_data_path: 'data/wikiQA/WikiQA-test.tsv'
+eval_data_path: 'data/wikiQA/WikiQA-dev.tsv'
+
+num_task: 3
+num_support: 20
+num_query: 80
+
+num_epochs: 50
+lr: 1.0e-5
+batch_size: 16

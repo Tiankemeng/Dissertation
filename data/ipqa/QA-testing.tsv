@@ -1,0 +1,20 @@
+QuestionID	Question	DocumentID	DocumentTitle	SentenceID	Sentence	Label
+Q46	What is a convolutional neural network (CNN)?	D14	Advanced Image Processing	D46-0	A convolutional neural network (CNN) is a deep learning algorithm designed for image processing tasks.	1
+Q46	What is a convolutional neural network (CNN)?	D14	Advanced Image Processing	D46-1	A convolutional neural network is a tool used to convert text into images.	0
+Q46	What is a convolutional neural network (CNN)?	D14	Advanced Image Processing	D46-2	A CNN is a method for adjusting the brightness and contrast of an image.	0
+Q47	What is the difference between lossy and lossless compression?	D14	Advanced Image Processing	D47-0	Lossy compression reduces file size by removing some data, while lossless compression retains all data.	1
+Q47	What is the difference between lossy and lossless compression?	D14	Advanced Image Processing	D47-1	Lossy compression is used for videos, and lossless compression is used for audio files.	0
+Q48	How is image processing used in medical imaging?	D15	Applications of Image Processing	D48-0	Image processing is used in medical imaging to enhance and analyze images from X-rays, MRI, and CT scans.	1
+Q48	How is image processing used in medical imaging?	D15	Applications of Image Processing	D48-1	Image processing in medical imaging is used to create cartoons from x-rays.	0
+Q48	How is image processing used in medical imaging?	D15	Applications of Image Processing	D48-2	Image processing is used in medical imaging to change the colors of CT scans.	0
+Q48	How is image processing used in medical imaging?	D15	Applications of Image Processing	D48-3	Image processing converts medical images into video format.	0
+Q49	What is remote sensing in image processing?	D15	Applications of Image Processing	D49-0	Remote sensing involves acquiring and analyzing images of the Earth's surface from satellites or aircraft.	1
+Q49	What is remote sensing in image processing?	D15	Applications of Image Processing	D49-1	Remote sensing is the process of converting images into text documents.	0
+Q49	What is remote sensing in image processing?	D15	Applications of Image Processing	D49-2	Remote sensing is used to create 3D models from aerial photographs.	0
+Q50	How is image processing used in autonomous vehicles?	D15	Applications of Image Processing	D50-0	Image processing is used in autonomous vehicles for object detection, navigation, and obstacle avoidance.	1
+Q50	How is image processing used in autonomous vehicles?	D15	Applications of Image Processing	D50-1	Image processing in autonomous vehicles is used to play videos on car screens.	0
+Q50	How is image processing used in autonomous vehicles?	D15	Applications of Image Processing	D50-2	Image processing is used to change the color of the car exterior.	0
+Q51	What is the role of image processing in security and surveillance?	D15	Applications of Image Processing	D51-0	Image processing is used in security and surveillance for facial recognition, motion detection, and video analysis.	1
+Q51	What is the role of image processing in security and surveillance?	D15	Applications of Image Processing	D51-1	Image processing in security is used to convert video footage into audio files.	0
+Q51	What is the role of image processing in security and surveillance?	D15	Applications of Image Processing	D51-2	Image processing helps in changing the color of security cameras.	0
+Q51	What is the role of image processing in security and surveillance?	D15	Applications of Image Processing	D51-3	Image processing is used to enhance the sound quality of surveillance footage.	0

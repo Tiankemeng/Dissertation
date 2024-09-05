@@ -1,0 +1,122 @@
+QuestionID	Question	DocumentID	DocumentTitle	SentenceID	Sentence	Label
+Q1	What is image processing?	D1	Image Processing Introduction	D1-0	Image processing involves the manipulation of images to achieve desired outcomes.	1
+Q1	What is image processing?	D1	Image Processing Introduction	D1-1	It includes various techniques for enhancing and analyzing images.	0
+Q1	What is image processing?	D1	Image Processing Introduction	D1-2	The process is unrelated to text processing.	0
+Q2	What are the main applications?	D1	Image Processing Introduction	D2-0	Applications include medical imaging, remote sensing, and computer vision.	1
+Q2	What are the main applications?	D1	Image Processing Introduction	D2-1	Image processing is not used for text editing.	0
+Q3	What are the basic steps?	D1	Image Processing Introduction	D3-0	Basic steps include image acquisition, preprocessing, segmentation, and feature extraction.	1
+Q3	What are the basic steps?	D1	Image Processing Introduction	D3-1	It often starts with image  interpretation and ends with image acquisition.	0
+Q4	What are digital images?	D2	Digital Images and Point Processes	D4-0	Digital images are composed of pixels, each representing a specific color or intensity.	1
+Q4	What are digital images?	D2	Digital Images and Point Processes	D4-1	They same with analog images, which are continuous signals.	0
+Q5	Difference between digital and analog?	D2	Digital Images and Point Processes	D5-0	Digital images are discrete, while analog images are continuous.	1
+Q5	Difference between digital and analog?	D2	Digital Images and Point Processes	D5-1	Analog images  have pixels.	0
+Q6	What are point processes?	D2	Digital Images and Point Processes	D6-0	Point processes are operations applied to individual pixels in an image, such as thresholding.	1
+Q6	What are point processes?	D2	Digital Images and Point Processes	D6-1	They consider the pixel’s neighborhood.	0
+Q7	What are linear filters?	D3	Linear and Non-Linear Filters	D7-0	Linear filters are used to smooth or sharpen images by modifying pixel values using convolution.	1
+Q7	What are linear filters?	D3	Linear and Non-Linear Filters	D7-1	Linear filters are filters that change the image colors to black and white only.	0
+Q7	What are linear filters?	D4	Linear and Non-Linear Filters	D7-2	Linear filters are filters that randomly rearrange the pixels in an image.	0
+Q8	Examples of linear filters?	D3	Linear and Non-Linear Filters	D8-0	Examples include Gaussian filter and average filter.	1
+Q8	Examples of linear filters?	D3	Linear and Non-Linear Filters	D8-1	Linear filters include median filters.	0
+Q8	Examples of linear filters?	D3	Linear and Non-Linear Filters	D8-2	Gaussian noise filter and Oil paint filter.	0
+Q8	Examples of linear filters?	D3	Linear and Non-Linear Filters	D8-3	Motion blur filter and Emboss filter.	0
+Q9	Difference between linear and non-linear filters?	D3	Linear and Non-Linear Filters	D9-0	Non-linear filters use the pixel values in the neighborhood but do not apply convolution.	1
+Q9	Difference between linear and non-linear filters?	D3	Linear and Non-Linear Filters	D9-1	They do not include filters like median and bilateral filters.	0
+Q9	Difference between linear and non-linear filters?	D3	Linear and Non-Linear Filters	D9-2	Linear filters are used only for videos, while non-linear filters are used only for photos.	0
+Q10	What is a histogram?	D4	Histogram (Whole Image Understanding)	D10-0	A histogram represents the frequency distribution of pixel intensities in an image.	1
+Q10	What is a histogram?	D4	Histogram (Whole Image Understanding)	D10-1	A histogram is a graph that displays the color palette of an image.	0
+Q10	What is a histogram?	D4	Histogram (Whole Image Understanding)	D10-2	A histogram is a tool used to measure the height of an image.	0
+Q11	What is histogram equalization?	D4	Histogram (Whole Image Understanding)	D11-0	Histogram equalization improves the contrast of an image by redistributing the pixel intensity values.	1
+Q11	What is histogram equalization?	D4	Histogram (Whole Image Understanding)	D11-1	Histogram equalization is used to change the resolution of an image to equal dimensions.	0
+Q11	What is histogram equalization?	D4	Histogram (Whole Image Understanding)	D11-2	Histogram equalization refers to equalizing the file sizes of multiple images.	0
+Q12	How does it improve contrast?	D4	Histogram (Whole Image Understanding)	D12-0	By spreading out the intensity values, it makes the darker regions lighter and the lighter regions darker.	1
+Q12	How does it improve contrast?	D4	Histogram (Whole Image Understanding)	D12-1	Histogram equalization does not affect the overall brightness of the image.	0
+Q13	What is thresholding?	D5	Thresholding and Binary Images	D13-0	Thresholding converts a grayscale image into a binary image based on a specific threshold value.	1
+Q13	What is thresholding?	D5	Thresholding and Binary Images	D13-1	Thresholding is the process of converting an image into a video.	0
+Q13	What is thresholding?	D5	Thresholding and Binary Images	D13-2	Thresholding is a technique used to increase the brightness of all pixels in an image.	0
+Q13	What is thresholding?	D5	Thresholding and Binary Images	D13-3	Thresholding is used to change the image resolution to higher values.	0
+Q14	Purpose of binary images?	D5	Thresholding and Binary Images	D14-0	Binary images are used for object detection and recognition.	1
+Q14	Purpose of binary images?	D5	Thresholding and Binary Images	D14-1	They are not used for color representation.	0
+Q14	Purpose of binary images?	D5	Thresholding and Binary Images	D14-2	The purpose of binary images is to display images in 3D format.	0
+Q14	Purpose of binary images?	D5	Thresholding and Binary Images	D14-3	Binary images are mainly used to add multiple layers to an image.	0
+Q15	Types of thresholding methods?	D5	Thresholding and Binary Images	D15-0	Types include global, local, and adaptive thresholding.	1
+Q15	Types of thresholding methods?	D5	Thresholding and Binary Images	D15-1	The types of thresholding methods include brightness adjustment and contrast enhancement.	0
+Q15	Types of thresholding methods?	D5	Thresholding and Binary Images	D15-2	Common thresholding methods are resizing and rotating the image.	0
+Q16	What are morphological operations?	D6	Morphology	D16-0	Morphological operations are used to extract structural elements from images.	1
+Q16	What are morphological operations?	D6	Morphology	D16-1	They are not based on set theory concepts.	0
+Q16	What are morphological operations?	D6	Morphology	D16-2	Morphological operations are techniques to animate still images.	0
+Q17	What are dilation and erosion?	D6	Morphology	D17-0	Dilation adds pixels to the boundaries of objects in an image, while erosion removes pixels on object boundaries.	1
+Q17	What are dilation and erosion?	D6	Morphology	D17-1	These operations are not used for color balancing.	0
+Q17	What are dilation and erosion?	D6	Morphology	D17-2	Dilation is used to increase the brightness, and erosion is used to increase the contrast of an image.	0
+Q17	What are dilation and erosion?	D6	Morphology	D17-3	Dilation and erosion are techniques to apply sepia and grayscale filters to images.	0
+Q18	Usage in image processing?	D6	Morphology	D18-0	Morphological operations are used for noise removal and image enhancement.	1
+Q18	Usage in image processing?	D6	Morphology	D18-1	Image processing techniques are primarily used to print images in 3D format.	0
+Q18	Usage in image processing?	D6	Morphology	D18-2	Image processing is used to change the file format of an image from JPEG to PNG.	0
+Q19	How are edges detected?	D7	Derivatives and Edges + Hough Transform	D19-0	Edge detection is performed using derivative operators like the Sobel or Canny edge detector.	1
+Q19	How are edges detected?	D7	Derivatives and Edges + Hough Transform	D19-1	The Sobel operator uses a pair of 8x8 convolution masks.	0
+Q19	How are edges detected?	D7	Derivatives and Edges + Hough Transform	D19-2	Edge detection is done by resizing the image to smaller dimensions.	0
+Q20	What is the Sobel edge detector?	D7	Derivatives and Edges + Hough Transform	D20-0	The Sobel edge detector emphasizes edges in the horizontal and vertical directions.	1
+Q20	What is the Sobel edge detector?	D7	Derivatives and Edges + Hough Transform	D20-1	It is not used for color segmentation.	0
+Q21	How is the Hough Transform used?	D7	Derivatives and Edges + Hough Transform	D21-0	Hough Transform is used to detect shapes like lines and circles in an image.	1
+Q21	How is the Hough Transform used?	D7	Derivatives and Edges + Hough Transform	D21-1	The Hough Transform is used to convert images into animated GIFs.	0
+Q21	How is the Hough Transform used?	D7	Derivatives and Edges + Hough Transform	D21-2	The Hough Transform is used to resize images.	0
+Q22	What is image segmentation?	D8	Segmentation	D22-0	Image segmentation divides an image into regions based on specific criteria like color or texture.	1
+Q22	What is image segmentation?	D8	Segmentation	D22-1	Image segmentation refers to converting an image into a sound file.	0
+Q23	Techniques for image segmentation?	D8	Segmentation	D23-0	Techniques include thresholding, clustering, and edge detection.	1
+Q23	Techniques for image segmentation?	D8	Segmentation	D23-1	Image segmentation is achieved by increasing the image brightness uniformly.	0
+Q23	Techniques for image segmentation?	D8	Segmentation	D23-2	Techniques for image segmentation include converting images to black and white only.	0
+Q23	Techniques for image segmentation?	D8	Segmentation	D23-3	Image segmentation involves only resizing images to different dimensions.	0
+Q23	Techniques for image segmentation?	D8	Segmentation	D23-4	Image segmentation uses compression algorithms like JPEG and PNG.	0
+Q24	Importance of image segmentation?	D8	Segmentation	D24-0	Segmentation helps in medical imaging to identify different tissues.	1
+Q24	Importance of image segmentation?	D8	Segmentation	D24-1	It is not used for image compression.	0
+Q25	What is interactive segmentation?	D9	Interactive Segmentation	D25-0	Interactive segmentation allows users to interact with the segmentation process to refine results.	1
+Q25	What is interactive segmentation?	D9	Interactive Segmentation	D25-1	It dose not involves user input to guide the segmentation algorithm.	0
+Q26	How does it work?	D9	Interactive Segmentation	D26-0	Users provide initial markers or boundaries, and the algorithm refines the segmentation based on these inputs.	1
+Q26	How does it work?	D9	Interactive Segmentation	D26-1	The process does not involve user interaction for color enhancement.	0
+Q27	Applications of interactive segmentation?	D9	Interactive Segmentation	D27-0	Applications include medical imaging, where precise boundaries are crucial.	1
+Q27	Applications of interactive segmentation?	D9	Interactive Segmentation	D27-1	It is used in text editing to refine object boundaries.	0
+Q28	What are CNNs?	D10	CNN	D28-0	Convolutional Neural Networks (CNNs) are a class of deep learning algorithms used for image processing tasks.	1
+Q28	What are CNNs?	D10	CNN	D28-1	The same with RNN.	0
+Q29	How do CNNs work in image processing?	D10	CNN	D29-0	CNNs use convolutional layers to scan images and detect features such as edges, textures, and patterns.	1
+Q29	How do CNNs work in image processing?	D10	CNN	D29-1	They do not use traditional filters like Gaussian or median filters.	0
+Q30	Advantages of using CNNs?	D10	CNN	D30-0	CNNs are highly effective for image classification, object detection, and segmentation.	1
+Q30	Advantages of using CNNs?	D10	CNN	D30-1	They require many preprocessing compared to traditional methods.	0
+Q31	What is image compression?	D11	Image Compression	D31-0	Image compression is the process of reducing the size of an image file without significantly degrading its quality.	1
+Q31	What is image compression?	D11	Image Compression	D31-1	Image compression is a technique used to convert images into 3D models.	0
+Q31	What is image compression?	D11	Image Compression	D31-2	Image compression is the process of increasing the size of an image to improve quality.	0
+Q31	What is image compression?	D11	Image Compression	D31-3	Image compression is used to change the file format of an image from PNG to JPEG.	0
+Q31	What is image compression?	D11	Image Compression	D31-4	Image compression is a method to animate still images by reducing their resolution.	0
+Q32	Types of image compression?	D11	Image Compression	D32-0	There are two main types: lossy and lossless compression.	1
+Q32	Types of image compression?	D11	Image Compression	D32-1	lossless compression reduces file size by removing some data, while lossy compression retains all original data.	0
+Q33	Importance of image compression?	D11	Image Compression	D33-0	It is crucial for efficient storage and transmission of images, especially in web and mobile applications.	1
+Q33	Importance of image compression?	D11	Image Compression	D33-1	Image compression is not related to color correction.	0
+Q34	What is an image?	D12	Fundamentals of Image Processing	D34-0	An image is a representation of a visual perception in digital form.	1
+Q34	What is an image?	D12	Fundamentals of Image Processing	D34-1	An image is a picture.	0
+Q35	What does RGB stand for?	D12	Fundamentals of Image Processing	D35-0	RGB stands for Red, Green, and Blue, which are the primary colors used in digital imaging.	1
+Q35	What does RGB stand for?	D12	Fundamentals of Image Processing	D35-1	RGB stands for Red, Grey, and Black, which are the primary colors used in digital imaging.	0
+Q36	What are the primary colors?	D12	Fundamentals of Image Processing	D36-0	The primary colors are red, green, and blue.	1
+Q36	What are the primary colors?	D12	Fundamentals of Image Processing	D36-1	The primary colors are red, yellow, and blue.	0
+Q36	What are the primary colors?	D12	Fundamentals of Image Processing	D36-2	The primary colors are blue, orange, and purple.	0
+Q37	What is a pixel?	D12	Fundamentals of Image Processing	D37-0	A pixel is the smallest unit of an image, representing a single point in the image.	1
+Q37	What is a pixel?	D12	Fundamentals of Image Processing	D37-1	A pixel is a large unit that contains multiple colors.	0
+Q37	What is a pixel?	D12	Fundamentals of Image Processing	D37-2	A pixel is a color filter used in cameras.	0
+Q38	What is a grayscale image?	D12	Fundamentals of Image Processing	D38-0	A grayscale image contains all colors except for black and white.	0
+Q38	What is a grayscale image?	D12	Fundamentals of Image Processing	D38-1	A grayscale image is an image with only two colors, black and white.	0
+Q38	What is grayscale image?	D12	Fundamentals of Image Processing	D38-2	A grayscale image contains shades of gray, with each pixel representing a value between black and white.	1
+Q39	What is image resolution?	D12	Fundamentals of Image Processing	D39-0	Image resolution refers to the number of pixels in an image, typically measured in DPI (dots per inch).	1
+Q39	What is image resolution?	D12	Fundamentals of Image Processing	D39-1	Image resolution is the speed at which an image can be loaded.	0
+Q40	What is image enhancement?	D13	Basic Image Processing Techniques	D40-0	Image enhancement refers to the process of improving the visual appearance of an image.	1
+Q40	What is image enhancement?	D13	Basic Image Processing Techniques	D40-1	Image enhancement is used to convert images into videos.	0
+Q40	What is image enhancement?	D13	Basic Image Processing Techniques	D40-2	Image enhancement is used to animate static images.	0
+Q41	What is noise in an image?	D13	Basic Image Processing Techniques	D41-0	Noise is random variation of brightness or color information in images, often caused by sensor or environment.	1
+Q41	What is noise in an image?	D13	Basic Image Processing Techniques	D41-1	Noise in an image means the brightness level of the image.	0
+Q42	What is image smoothing?	D13	Basic Image Processing Techniques	D42-0	Image smoothing is a technique to reduce noise and improve the quality of an image.	1
+Q42	What is image smoothing?	D13	Basic Image Processing Techniques	D42-1	Image smoothing is the process of adding more colors to an image.	0
+Q42	What is image smoothing?	D13	Basic Image Processing Techniques	D42-2	Image smoothing is used to make an image brighter.	0
+Q43	What is edge detection?	D13	Basic Image Processing Techniques	D43-0	Edge detection is a technique to identify and locate sharp discontinuities in an image.	1
+Q43	What is edge detection?	D13	Basic Image Processing Techniques	D43-1	Edge detection is a technique to resize images.	0
+Q44	What is image segmentation?	D14	Advanced Image Processing	D44-0	Image segmentation is the process of partitioning an image into meaningful regions.	1
+Q44	What is image segmentation?	D14	Advanced Image Processing	D44-1	Image segmentation is used to convert an image into a text file.	0
+Q44	What is image segmentation?	D14	Advanced Image Processing	D44-2	Image segmentation is the process of reducing the file size of an image.	0
+Q45	What is the purpose of image compression?	D14	Advanced Image Processing	D45-0	Image compression reduces the size of an image file, making it easier to store and transmit.	1
+Q45	What is the purpose of image compression?	D14	Advanced Image Processing	D45-1	"
+Image compression is used to add more layers to an image."	0
